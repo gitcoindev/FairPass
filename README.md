@@ -1,6 +1,6 @@
 # FairPass
 
-[![Build](https://github.com/gitcoindev/FairPass/workflows/Build/badge.svg)](https://github.com/gitcoindev/FairPass/actions?query=workflow%3ABuild) [![Test](https://github.com/gitcoindev/FairPass/workflows/Test/badge.svg)](https://github.com/gitcoindev/FairPass/actions?query=workflow%3ATest) [![Static code analysis](https://github.com/gitcoindev/FairPass/workflows/static-code-analysis/badge.svg)](https://github.com/gitcoindev/FairPass/actions?query=workflow%3Astatic-code-analysis)
+[![Build](https://github.com/gitcoindev/FairPass/workflows/Build/badge.svg)](https://github.com/gitcoindev/FairPass/actions?query=workflow%3ABuild) [![Test](https://github.com/gitcoindev/FairPass/workflows/Test/badge.svg)](https://github.com/gitcoindev/FairPass/actions?query=workflow%3ATest) [![Static code analysis](https://github.com/gitcoindev/FairPass/workflows/static-code-analysis/badge.svg)](https://github.com/gitcoindev/FairPass/workflows/Static%20code%20analysis/badge.svg)
 
 FairPass is a Password Manager build with FairOS on top of swarm. It uses FairOS as a dependency and uses "fairpass" pod
 to save "passwords" and "notes".
