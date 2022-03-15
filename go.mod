@@ -3,7 +3,7 @@ module github.com/fairdatasociety/fairpass
 go 1.17
 
 require (
-	fyne.io/fyne/v2 v2.1.2
+	fyne.io/fyne/v2 v2.1.3
 	github.com/fairdatasociety/fairOS-dfs v0.7.3-0.20220214112014-eef257b1976a
 	github.com/google/uuid v1.1.4
 	github.com/sethvargo/go-password v0.2.0
