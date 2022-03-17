@@ -21,7 +21,7 @@ jobs:
     - name: Set commit hash
       run: sed -i "s/Commit  = \"none\"/Commit  = \"$(git rev-parse --short HEAD)\"/g" internal/utils/version.go
     - name: Set tag version
-      run: sed -i "s/Version  = \"v0.0.0\"/Version  = \"$(github.ref_name)\"/g" internal/utils/version.go
+      run: sed -i "s/Version  = \"v0.0.0\"/Version  = \"$(git tag)\"/g" internal/utils/version.go
     - name: Build
       run: fyne-cross linux -app-id org.fairdatasociety.fairpass -icon icon.png
     - name: Release
